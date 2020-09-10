@@ -10,11 +10,13 @@ body{
 div{
     width: 80½;
     height: 50%;
+  
 }
 div>p{
     text-align: center;
     background: rgba(19, 10, 0, 0.4);
     color: white;
+      padding: 30px;
 }
 ul{
     background-image: url("bitcoin.jpeg");
