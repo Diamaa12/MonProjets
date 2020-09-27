@@ -1,11 +1,16 @@
-let aside = document.getElementById('aside');
+var aside = document.getElementById('aside');
 aside.style.color = "orange";
 aside.style.backgroundColor = "grey";
 
-let para = document.createElement('p');
-let contenu = document.createTextNode('Bismillahi');
+var para = document.createElement('p');
+var contenu = document.createTextNode('Bismillahi');
 para.style.color = 'white';
 para.style.backgroundColor = 'black';
 
 para.appendChild(contenu);
 aside.appendChild(para);
+
+var ul = document.getElementsByName('ul');
+var li = document.createElement('li');
+
+ul.appendChild(li);
